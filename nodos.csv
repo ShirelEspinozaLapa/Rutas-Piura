@@ -1,0 +1,26 @@
+id,nombre,tipo,distrito,margen,lat,lon,codigo_inei,familias,prioridad_medica,acceso_terrestre,fuente_coordenada,motivo
+D1,Aeropuerto de Piura / base aérea,deposito,CASTILLA,MI,-5.205560,-80.616670,,0,0,operativo,Wikipedia: PAF Captain Guillermo Concha Iberico International Airport,Puente aéreo 2017 y helicópteros 2023 (Grupo Aéreo N.° 7)
+D2,Campus UDEP (centro de acopio),deposito,PIURA,MD,-5.176690,-80.634640,,0,0,operativo,Wikipedia: University of Piura,UDEP 2017: centro de acopio Todos somos Piura
+C01,Simbilá,comunidad,CATACAOS,MI,-5.244412,-80.649686,2001050003,220,0,operativo,INEI centros poblados (ubigeo_ccpp.csv),RPP 2017: punto vulnerable margen izquierda
+C02,La Legua - San Jacinto,comunidad,CATACAOS,MI,-5.247943,-80.670109,2001050002,180,0,operativo,INEI centros poblados (ubigeo_ccpp.csv),Correo: erosión del dique San Jacinto-Catacaos
+C03,Viduque,comunidad,CATACAOS,MI,-5.252902,-80.665310,2001050004,60,1,cortado,INEI centros poblados (ubigeo_ccpp.csv),Mongabay 2017: agua estancada
+C04,Catacaos (ciudad),comunidad,CATACAOS,MI,-5.267270,-80.672423,2001050001,450,1,operativo,INEI centros poblados (ubigeo_ccpp.csv),Mongabay 2017: distrito totalmente inundado
+C05,Narihualá,comunidad,CATACAOS,MI,-5.291134,-80.687515,2001050012,90,1,cortado,INEI centros poblados (ubigeo_ccpp.csv),Mongabay 2017 / Andina 2018: centro de salud inhabilitado
+C06,Pedregal Chico,comunidad,CATACAOS,MI,-5.300201,-80.692734,2001050015,50,0,cortado,INEI centros poblados (ubigeo_ccpp.csv),Mongabay 2017: agua estancada
+C07,Pedregal Grande,comunidad,CATACAOS,MI,-5.307327,-80.685316,2001050010,110,1,cortado,INEI centros poblados (ubigeo_ccpp.csv),Mongabay 2017 / UDEP 2023: ayuda humanitaria
+C08,Santa Rosa (Cura Mori),comunidad,CURA MORI,MI,-5.320604,-80.678757,2001070002,90,1,cortado,INEI centros poblados (ubigeo_ccpp.csv),Andina: dique reforzado; El Tiempo: sector más golpeado
+C09,Cucungará,comunidad,CURA MORI,MI,-5.323572,-80.665435,2001070001,120,0,cortado,INEI centros poblados (ubigeo_ccpp.csv),Mongabay 2017: Cura Mori totalmente inundado
+C10,Chato Grande,comunidad,CURA MORI,MI,-5.356398,-80.668402,2001070015,70,0,cortado,INEI centros poblados (ubigeo_ccpp.csv),Mongabay 2017: caseríos más afectados
+C11,Chato Chico,comunidad,CURA MORI,MI,-5.367113,-80.665179,2001070019,50,1,cortado,INEI centros poblados (ubigeo_ccpp.csv),CENEPRED: inundación margen izquierda
+C12,Pueblo Nuevo (Cura Mori),comunidad,CURA MORI,MI,-5.361443,-80.644363,2001070016,60,0,operativo,INEI centros poblados (ubigeo_ccpp.csv),"Cura Mori, sector oriental"
+C13,San Pablo,comunidad,CATACAOS,MI,-5.291018,-80.616997,2001050016,70,0,operativo,INEI centros poblados (ubigeo_ccpp.csv),UDEP 2017: proyecto de ayuda humanitaria
+C14,Paredones,comunidad,CATACAOS,MD,-5.268375,-80.703059,2001050006,90,0,operativo,INEI centros poblados (ubigeo_ccpp.csv),"Catacaos, margen derecha"
+C15,Monte Castillo,comunidad,CATACAOS,MD,-5.281274,-80.714661,2001050008,80,0,operativo,INEI centros poblados (ubigeo_ccpp.csv),"Catacaos, margen derecha"
+C16,La Arena,comunidad,LA ARENA,MD,-5.342964,-80.703599,2001090001,380,1,operativo,INEI centros poblados (ubigeo_ccpp.csv),CENEPRED: área urbana inundable
+C17,Casagrande,comunidad,LA ARENA,MD,-5.317682,-80.753394,2001090010,120,0,operativo,INEI centros poblados (ubigeo_ccpp.csv),La Arena
+C18,Las Malvinas,comunidad,LA ARENA,MD,-5.362634,-80.716335,2001090022,100,0,operativo,INEI centros poblados (ubigeo_ccpp.csv),La Arena
+C19,Chatito,comunidad,LA ARENA,MD,-5.380331,-80.695969,2001090024,70,0,operativo,INEI centros poblados (ubigeo_ccpp.csv),"La Arena, ribereño"
+C20,La Unión,comunidad,LA UNION,MD,-5.388214,-80.737332,2001100001,300,0,operativo,INEI centros poblados (ubigeo_ccpp.csv),Mongabay 2017: zona de riesgo
+C21,Sinchao (El Tallán),comunidad,EL TALLAN,MD,-5.409103,-80.681056,2001080001,130,1,operativo,INEI centros poblados (ubigeo_ccpp.csv),CENEPRED: El Tallán afectado
+C22,Locuto (Tambo Grande),comunidad,TAMBO GRANDE,NA,-4.948805,-80.348886,2001140120,80,1,cortado,INEI centros poblados (ubigeo_ccpp.csv),RPP 2017: desborde en Locuto
+C23,San Martín de Malingas,comunidad,TAMBO GRANDE,NA,-4.971978,-80.274413,2001140138,100,0,cortado,INEI centros poblados (ubigeo_ccpp.csv),El Tiempo 2023: sin paso a Tambogrande ni a Piura

@@ -1,0 +1,6 @@
+id,nombre,lat,lon,estado,nota
+P1,Puente Cáceres,-5.1775,-80.6245,restringido,"Escenario: paso restringido por socavación de bases (el CIP advirtió debilitamiento tras 2017)"
+P2,Puente Sánchez Cerro,-5.1925,-80.6282,cerrado,"Escenario: cerrado por crecida (en la crecida de 2017 se restringió el pase vehicular)"
+P3,Puente Bolognesi,-5.2010,-80.6320,cerrado,"Escenario: cerrado por crecida"
+P4,Puente Grau (Panamericana),-5.2215,-80.6450,operativo,"Infraestructura nueva construida tras 2017 (OSITRAN 2025)"
+P5,Puente Independencia (Catacaos - La Arena),-5.2680,-80.6890,colapsado,"Escenario: colapso. Conecta Catacaos con La Arena; el puente antiguo fue ampliado en 2018 (Andina)"

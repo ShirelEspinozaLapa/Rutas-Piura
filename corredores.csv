@@ -1,0 +1,47 @@
+desde,hasta,tipo,nombre
+D2,P1-MD,urbana,Av. hacia Puente Cáceres
+D2,P2-MD,urbana,Centro de Piura
+P2-MD,P3-MD,urbana,Malecón margen derecha
+P3-MD,P4-MD,urbana,Malecón margen derecha / Vía de Evitamiento
+P1-MI,P2-MI,urbana,Castilla margen izquierda
+P2-MI,D1,urbana,Castilla - aeropuerto
+P3-MI,D1,urbana,Castilla - aeropuerto
+P4-MI,D1,carretera,Vía de Evitamiento
+D2,A1,urbana,Salida oeste
+P4-MI,C01,carretera,Carretera Piura - Catacaos (aprox.)
+C01,C02,carretera,Carretera Piura - Catacaos (aprox.)
+C02,C04,carretera,Carretera Piura - Catacaos (aprox.)
+C04,P5-MI,carretera,Acceso a Puente Independencia
+C02,C03,afirmado,Camino a Viduque
+C03,C04,afirmado,Camino a Viduque
+C04,C05,afirmado,Camino a Narihualá
+C05,C06,afirmado,Camino a Pedregal
+C06,C07,afirmado,Camino a Pedregal
+C07,C08,afirmado,Camino Pedregal - Santa Rosa
+C08,C09,afirmado,Camino Santa Rosa - Cucungará
+C04,C09,afirmado,Carretera Catacaos - Cura Mori (aprox.)
+C09,C10,afirmado,Camino a Chato
+C10,C11,afirmado,Camino a Chato
+C11,C12,afirmado,Camino Chato Chico - Pueblo Nuevo
+D1,C13,carretera,Panamericana Norte (aprox.)
+C13,A3,carretera,Panamericana Norte (aprox.)
+A3,C12,afirmado,Acceso a Pueblo Nuevo
+C13,C04,afirmado,Camino San Pablo - Catacaos
+C09,C13,afirmado,Camino Cura Mori - Panamericana
+P5-MD,C14,carretera,Acceso a Paredones
+C14,C15,afirmado,Camino a Monte Castillo
+P5-MD,A5,carretera,Carretera Catacaos - La Arena (aprox.)
+A5,C16,carretera,Carretera Catacaos - La Arena (aprox.)
+C16,C18,carretera,Carretera La Arena - La Unión (aprox.)
+C18,C20,carretera,Carretera La Arena - La Unión (aprox.)
+C16,C17,afirmado,Camino a Casagrande
+C15,C17,afirmado,Camino Monte Castillo - Casagrande
+C18,C19,afirmado,Camino a Chatito
+C19,C21,afirmado,Camino Chatito - Sinchao
+C20,C21,afirmado,Camino La Unión - El Tallán
+A1,A2,trocha,Trocha de desvío por la pampa (supuesto)
+A2,C17,trocha,Trocha de desvío por la pampa (supuesto)
+A2,C15,trocha,Trocha de desvío por la pampa (supuesto)
+D1,A4,carretera,Carretera Piura - Tambo Grande (aprox.)
+A4,C22,carretera,Carretera Piura - Tambo Grande (aprox.)
+C22,C23,afirmado,Camino Locuto - Malingas

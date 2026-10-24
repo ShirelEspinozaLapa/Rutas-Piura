@@ -1,0 +1,17 @@
+{
+  "name": "Q-Rutas Piura DevContainer",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "forwardPorts": [7860],
+  "postCreateCommand": "python tests/verificar.py"
+}
