@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-Rutas Piura - Visor Cartográfico Interactivo</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        #map { width: 100%; height: 100vh; }
+        .panel-info {
+            position: absolute; top: 15px; right: 15px; z-index: 1000;
+            background: rgba(15, 23, 42, 0.92); color: white; padding: 16px;
+            border-radius: 10px; max-width: 320px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.1);
+        }
+        .leyenda-item { display: flex; align-items: center; margin-top: 6px; font-size: 13px; }
+        .badge { width: 12px; height: 12px; border-radius: 50%; display: inline-block; margin-right: 8px; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="panel-info">
+        <h3 style="margin: 0 0 8px 0; color: #38bdf8;">🚁 Q-Rutas Piura</h3>
+        <p style="margin: 0 0 12px 0; font-size: 12px; color: #94a3b8;">Mapa táctico de ruteo humanitario ante crecida del río Piura.</p>
+        <div class="leyenda-item"><span class="badge" style="background: #2563eb;"></span> Centros de Acopio (Bases)</div>
+        <div class="leyenda-item"><span class="badge" style="background: #ef4444;"></span> Comunidad con corte terrestre</div>
+        <div class="leyenda-item"><span class="badge" style="background: #10b981;"></span> Comunidad con acceso operativo</div>
+        <div class="leyenda-item"><span class="badge" style="background: #f59e0b;"></span> Puente restringido / cerrado</div>
+        <div class="leyenda-item"><span class="badge" style="background: #dc2626;"></span> Puente Independencia colapsado</div>
+        <div class="leyenda-item"><span class="badge" style="background: #0284c7; width: 18px; height: 4px; border-radius: 2px;"></span> Río Piura (Cauce aproximado)</div>
+    </div>
+
+    <script>
+        const map = L.map('map').setView([-5.30, -80.65], 11);
+
+        const osmLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap contributors | Q-Rutas Piura'
+        });
+
+        const esriDarkLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+            maxZoom: 16,
+            attribution: 'Tiles © Esri | Q-Rutas Piura'
+        }).addTo(map);
+
+        L.control.layers({
+            "Mapa Táctico Oscuro (Esri)": esriDarkLayer,
+            "OpenStreetMap Estándar": osmLayer
+        }, null, { position: 'topright' }).addTo(map);
+
+        // Río Piura
+        const rioCoords = [[-5.0, -80.19], [-4.95, -80.26], [-4.925, -80.32], [-4.918, -80.345], [-4.935, -80.42], [-4.955, -80.5], [-4.968, -80.56], [-4.978, -80.592], [-5.0, -80.604], [-5.04, -80.607], [-5.08, -80.61], [-5.115, -80.614], [-5.14, -80.619], [-5.162, -80.6215], [-5.1775, -80.6245], [-5.1925, -80.6282], [-5.201, -80.632], [-5.212, -80.6385], [-5.2215, -80.645], [-5.236, -80.662], [-5.252, -80.678], [-5.268, -80.689], [-5.29, -80.696], [-5.312, -80.698], [-5.333, -80.693], [-5.355, -80.686], [-5.378, -80.679], [-5.4, -80.673], [-5.425, -80.672], [-5.455, -80.68]];
+        L.polyline(rioCoords, { color: '#0284c7', weight: 5, opacity: 0.8, dashArray: '5, 5' }).addTo(map)
+         .bindPopup('<b>Cauce del Río Piura</b><br>Zona de desborde y barrera natural.');
+
+        // Puentes
+        const puentes = [{"nombre": "Puente C\u00e1ceres", "lat": -5.1775, "lon": -80.6245, "estado": "restringido"}, {"nombre": "Puente S\u00e1nchez Cerro", "lat": -5.1925, "lon": -80.6282, "estado": "cerrado"}, {"nombre": "Puente Bolognesi", "lat": -5.201, "lon": -80.632, "estado": "cerrado"}, {"nombre": "Puente Grau (Panamericana)", "lat": -5.2215, "lon": -80.645, "estado": "operativo"}, {"nombre": "Puente Independencia (Catacaos - La Arena)", "lat": -5.268, "lon": -80.689, "estado": "colapsado"}];
+        puentes.forEach(p => {
+            let color = '#10b981';
+            if (p.estado === 'restringido') color = '#f59e0b';
+            if (p.estado === 'cerrado' || p.estado === 'colapsado') color = '#dc2626';
+
+            L.circleMarker([p.lat, p.lon], {
+                radius: 7, fillColor: color, color: '#ffffff', weight: 2, fillOpacity: 0.9
+            }).addTo(map).bindPopup(`<b>${p.nombre}</b><br>Estado en el escenario: <b>${p.estado.toUpperCase()}</b>`);
+        });
+
+        // Nodos (Comunidades y Depósitos)
+        const nodos = [{"id": "D1", "nombre": "Aeropuerto de Piura / base a\u00e9rea", "tipo": "deposito", "lat": -5.20556, "lon": -80.61667, "familias": 0, "prioridad": 0, "acceso": "operativo"}, {"id": "D2", "nombre": "Campus UDEP (centro de acopio)", "tipo": "deposito", "lat": -5.17669, "lon": -80.63464, "familias": 0, "prioridad": 0, "acceso": "operativo"}, {"id": "C01", "nombre": "Simbil\u00e1", "tipo": "comunidad", "lat": -5.244412, "lon": -80.649686, "familias": 220, "prioridad": 0, "acceso": "operativo"}, {"id": "C02", "nombre": "La Legua - San Jacinto", "tipo": "comunidad", "lat": -5.247943, "lon": -80.670109, "familias": 180, "prioridad": 0, "acceso": "operativo"}, {"id": "C03", "nombre": "Viduque", "tipo": "comunidad", "lat": -5.252902, "lon": -80.66531, "familias": 60, "prioridad": 1, "acceso": "cortado"}, {"id": "C04", "nombre": "Catacaos (ciudad)", "tipo": "comunidad", "lat": -5.26727, "lon": -80.672423, "familias": 450, "prioridad": 1, "acceso": "operativo"}, {"id": "C05", "nombre": "Narihual\u00e1", "tipo": "comunidad", "lat": -5.291134, "lon": -80.687515, "familias": 90, "prioridad": 1, "acceso": "cortado"}, {"id": "C06", "nombre": "Pedregal Chico", "tipo": "comunidad", "lat": -5.300201, "lon": -80.692734, "familias": 50, "prioridad": 0, "acceso": "cortado"}, {"id": "C07", "nombre": "Pedregal Grande", "tipo": "comunidad", "lat": -5.307327, "lon": -80.685316, "familias": 110, "prioridad": 1, "acceso": "cortado"}, {"id": "C08", "nombre": "Santa Rosa (Cura Mori)", "tipo": "comunidad", "lat": -5.320604, "lon": -80.678757, "familias": 90, "prioridad": 1, "acceso": "cortado"}, {"id": "C09", "nombre": "Cucungar\u00e1", "tipo": "comunidad", "lat": -5.323572, "lon": -80.665435, "familias": 120, "prioridad": 0, "acceso": "cortado"}, {"id": "C10", "nombre": "Chato Grande", "tipo": "comunidad", "lat": -5.356398, "lon": -80.668402, "familias": 70, "prioridad": 0, "acceso": "cortado"}, {"id": "C11", "nombre": "Chato Chico", "tipo": "comunidad", "lat": -5.367113, "lon": -80.665179, "familias": 50, "prioridad": 1, "acceso": "cortado"}, {"id": "C12", "nombre": "Pueblo Nuevo (Cura Mori)", "tipo": "comunidad", "lat": -5.361443, "lon": -80.644363, "familias": 60, "prioridad": 0, "acceso": "operativo"}, {"id": "C13", "nombre": "San Pablo", "tipo": "comunidad", "lat": -5.291018, "lon": -80.616997, "familias": 70, "prioridad": 0, "acceso": "operativo"}, {"id": "C14", "nombre": "Paredones", "tipo": "comunidad", "lat": -5.268375, "lon": -80.703059, "familias": 90, "prioridad": 0, "acceso": "operativo"}, {"id": "C15", "nombre": "Monte Castillo", "tipo": "comunidad", "lat": -5.281274, "lon": -80.714661, "familias": 80, "prioridad": 0, "acceso": "operativo"}, {"id": "C16", "nombre": "La Arena", "tipo": "comunidad", "lat": -5.342964, "lon": -80.703599, "familias": 380, "prioridad": 1, "acceso": "operativo"}, {"id": "C17", "nombre": "Casagrande", "tipo": "comunidad", "lat": -5.317682, "lon": -80.753394, "familias": 120, "prioridad": 0, "acceso": "operativo"}, {"id": "C18", "nombre": "Las Malvinas", "tipo": "comunidad", "lat": -5.362634, "lon": -80.716335, "familias": 100, "prioridad": 0, "acceso": "operativo"}, {"id": "C19", "nombre": "Chatito", "tipo": "comunidad", "lat": -5.380331, "lon": -80.695969, "familias": 70, "prioridad": 0, "acceso": "operativo"}, {"id": "C20", "nombre": "La Uni\u00f3n", "tipo": "comunidad", "lat": -5.388214, "lon": -80.737332, "familias": 300, "prioridad": 0, "acceso": "operativo"}, {"id": "C21", "nombre": "Sinchao (El Tall\u00e1n)", "tipo": "comunidad", "lat": -5.409103, "lon": -80.681056, "familias": 130, "prioridad": 1, "acceso": "operativo"}, {"id": "C22", "nombre": "Locuto (Tambo Grande)", "tipo": "comunidad", "lat": -4.948805, "lon": -80.348886, "familias": 80, "prioridad": 1, "acceso": "cortado"}, {"id": "C23", "nombre": "San Mart\u00edn de Malingas", "tipo": "comunidad", "lat": -4.971978, "lon": -80.274413, "familias": 100, "prioridad": 0, "acceso": "cortado"}];
+        nodos.forEach(n => {
+            let color = n.acceso === 'cortado' ? '#ef4444' : '#10b981';
+            let radius = 6;
+            if (n.tipo === 'deposito') {
+                color = '#2563eb';
+                radius = 9;
+            }
+
+            const marker = L.circleMarker([n.lat, n.lon], {
+                radius: radius, fillColor: color, color: '#ffffff', weight: 2, fillOpacity: 0.95
+            }).addTo(map);
+
+            let pop = `<b>${n.nombre}</b> (${n.id})<br>`;
+            if (n.tipo === 'deposito') {
+                pop += `Centro de Acopio y Base de Despliegue.`;
+            } else {
+                pop += `Familias afectadas: <b>${n.familias}</b> (${n.familias * 10} kg ayuda)<br>` +
+                       `Acceso terrestre: <b>${n.acceso.toUpperCase()}</b><br>` +
+                       `Prioridad médica: ${n.prioridad ? '🚨 URGENTE (Medicinas)' : 'Normal'}`;
+            }
+            marker.bindPopup(pop);
+        });
+    </script>
+</body>
+</html>

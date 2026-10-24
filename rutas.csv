@@ -1,0 +1,162 @@
+metodo,vehiculo,tipo,deposito,salida_h,regreso_h,parada,comunidad,llegada_h,ventana_h,atraso_h,carga_ruta_kg,combustible_ruta_l,riesgo_ruta
+Clustering + exacto (fuerza bruta),T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,1,San Pablo,1.088,24.0,0.000,5800,25.8,0.0530
+Clustering + exacto (fuerza bruta),T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,2,Catacaos (ciudad),1.915,3.0,0.000,5800,25.8,0.0530
+Clustering + exacto (fuerza bruta),T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,3,Pueblo Nuevo (Cura Mori),3.177,24.0,0.000,5800,25.8,0.0530
+Clustering + exacto (fuerza bruta),T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,1,Simbilá,1.024,24.0,0.000,4000,7.4,0.0313
+Clustering + exacto (fuerza bruta),T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,2,La Legua - San Jacinto,1.642,24.0,0.000,4000,7.4,0.0313
+Clustering + exacto (fuerza bruta),T3,camion,Campus UDEP (centro de acopio),0.000,6.610,1,La Arena,2.713,3.0,0.000,7800,32.6,0.0908
+Clustering + exacto (fuerza bruta),T3,camion,Campus UDEP (centro de acopio),0.000,6.610,2,Las Malvinas,3.309,24.0,0.000,7800,32.6,0.0908
+Clustering + exacto (fuerza bruta),T3,camion,Campus UDEP (centro de acopio),0.000,6.610,3,La Unión,3.930,24.0,0.000,7800,32.6,0.0908
+Clustering + exacto (fuerza bruta),T4,camion,Campus UDEP (centro de acopio),0.000,7.493,1,Monte Castillo,2.296,24.0,0.000,3600,35.6,0.1073
+Clustering + exacto (fuerza bruta),T4,camion,Campus UDEP (centro de acopio),0.000,7.493,2,Paredones,2.890,24.0,0.000,3600,35.6,0.1073
+Clustering + exacto (fuerza bruta),T4,camion,Campus UDEP (centro de acopio),0.000,7.493,3,Casagrande,3.754,24.0,0.000,3600,35.6,0.1073
+Clustering + exacto (fuerza bruta),T4,camion,Campus UDEP (centro de acopio),0.000,7.493,4,Chatito,4.794,24.0,0.000,3600,35.6,0.1073
+Clustering + exacto (fuerza bruta),H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,1,Pedregal Grande,0.568,2.5,0.000,3800,197.5,0.0070
+Clustering + exacto (fuerza bruta),H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,2,Santa Rosa (Cura Mori),0.910,2.5,0.000,3800,197.5,0.0070
+Clustering + exacto (fuerza bruta),H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,3,Chato Chico,1.270,2.5,0.000,3800,197.5,0.0070
+Clustering + exacto (fuerza bruta),H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,4,Sinchao (El Tallán),1.628,2.5,0.000,3800,197.5,0.0070
+Clustering + exacto (fuerza bruta),H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,1,Viduque,0.538,2.5,0.000,3300,481.9,0.0084
+Clustering + exacto (fuerza bruta),H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,2,Narihualá,0.896,2.5,0.000,3300,481.9,0.0084
+Clustering + exacto (fuerza bruta),H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,3,Locuto (Tambo Grande),1.496,2.5,0.000,3300,481.9,0.0084
+Clustering + exacto (fuerza bruta),H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,4,San Martín de Malingas,1.873,24.0,0.000,3300,481.9,0.0084
+Clustering + exacto (fuerza bruta),H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,1,Pedregal Chico,3.148,24.0,0.000,2400,155.4,0.0053
+Clustering + exacto (fuerza bruta),H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,2,Cucungará,3.501,24.0,0.000,2400,155.4,0.0053
+Clustering + exacto (fuerza bruta),H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,3,Chato Grande,3.853,24.0,0.000,2400,155.4,0.0053
+Clustering + SA sobre QUBO,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,1,San Pablo,1.088,24.0,0.000,5800,25.8,0.0530
+Clustering + SA sobre QUBO,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,2,Catacaos (ciudad),1.915,3.0,0.000,5800,25.8,0.0530
+Clustering + SA sobre QUBO,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,3,Pueblo Nuevo (Cura Mori),3.177,24.0,0.000,5800,25.8,0.0530
+Clustering + SA sobre QUBO,T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,1,Simbilá,1.024,24.0,0.000,4000,7.4,0.0313
+Clustering + SA sobre QUBO,T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,2,La Legua - San Jacinto,1.642,24.0,0.000,4000,7.4,0.0313
+Clustering + SA sobre QUBO,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,1,La Arena,2.713,3.0,0.000,7800,32.6,0.0908
+Clustering + SA sobre QUBO,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,2,Las Malvinas,3.309,24.0,0.000,7800,32.6,0.0908
+Clustering + SA sobre QUBO,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,3,La Unión,3.930,24.0,0.000,7800,32.6,0.0908
+Clustering + SA sobre QUBO,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,1,Monte Castillo,2.296,24.0,0.000,3600,35.6,0.1073
+Clustering + SA sobre QUBO,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,2,Paredones,2.890,24.0,0.000,3600,35.6,0.1073
+Clustering + SA sobre QUBO,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,3,Casagrande,3.754,24.0,0.000,3600,35.6,0.1073
+Clustering + SA sobre QUBO,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,4,Chatito,4.794,24.0,0.000,3600,35.6,0.1073
+Clustering + SA sobre QUBO,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,1,Pedregal Grande,0.568,2.5,0.000,3800,197.5,0.0070
+Clustering + SA sobre QUBO,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,2,Santa Rosa (Cura Mori),0.910,2.5,0.000,3800,197.5,0.0070
+Clustering + SA sobre QUBO,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,3,Chato Chico,1.270,2.5,0.000,3800,197.5,0.0070
+Clustering + SA sobre QUBO,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,4,Sinchao (El Tallán),1.628,2.5,0.000,3800,197.5,0.0070
+Clustering + SA sobre QUBO,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,1,Viduque,0.538,2.5,0.000,3300,481.9,0.0084
+Clustering + SA sobre QUBO,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,2,Narihualá,0.896,2.5,0.000,3300,481.9,0.0084
+Clustering + SA sobre QUBO,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,3,Locuto (Tambo Grande),1.496,2.5,0.000,3300,481.9,0.0084
+Clustering + SA sobre QUBO,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,4,San Martín de Malingas,1.873,24.0,0.000,3300,481.9,0.0084
+Clustering + SA sobre QUBO,H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,1,Pedregal Chico,3.148,24.0,0.000,2400,155.4,0.0053
+Clustering + SA sobre QUBO,H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,2,Cucungará,3.501,24.0,0.000,2400,155.4,0.0053
+Clustering + SA sobre QUBO,H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,3,Chato Grande,3.853,24.0,0.000,2400,155.4,0.0053
+Clustering + algoritmo genético,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,1,San Pablo,1.088,24.0,0.000,5800,25.8,0.0530
+Clustering + algoritmo genético,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,2,Catacaos (ciudad),1.915,3.0,0.000,5800,25.8,0.0530
+Clustering + algoritmo genético,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,3,Pueblo Nuevo (Cura Mori),3.177,24.0,0.000,5800,25.8,0.0530
+Clustering + algoritmo genético,T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,1,Simbilá,1.024,24.0,0.000,4000,7.4,0.0313
+Clustering + algoritmo genético,T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,2,La Legua - San Jacinto,1.642,24.0,0.000,4000,7.4,0.0313
+Clustering + algoritmo genético,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,1,La Arena,2.713,3.0,0.000,7800,32.6,0.0908
+Clustering + algoritmo genético,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,2,Las Malvinas,3.309,24.0,0.000,7800,32.6,0.0908
+Clustering + algoritmo genético,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,3,La Unión,3.930,24.0,0.000,7800,32.6,0.0908
+Clustering + algoritmo genético,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,1,Monte Castillo,2.296,24.0,0.000,3600,35.6,0.1073
+Clustering + algoritmo genético,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,2,Paredones,2.890,24.0,0.000,3600,35.6,0.1073
+Clustering + algoritmo genético,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,3,Casagrande,3.754,24.0,0.000,3600,35.6,0.1073
+Clustering + algoritmo genético,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,4,Chatito,4.794,24.0,0.000,3600,35.6,0.1073
+Clustering + algoritmo genético,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,1,Pedregal Grande,0.568,2.5,0.000,3800,197.5,0.0070
+Clustering + algoritmo genético,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,2,Santa Rosa (Cura Mori),0.910,2.5,0.000,3800,197.5,0.0070
+Clustering + algoritmo genético,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,3,Chato Chico,1.270,2.5,0.000,3800,197.5,0.0070
+Clustering + algoritmo genético,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,4,Sinchao (El Tallán),1.628,2.5,0.000,3800,197.5,0.0070
+Clustering + algoritmo genético,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,1,Viduque,0.538,2.5,0.000,3300,481.9,0.0084
+Clustering + algoritmo genético,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,2,Narihualá,0.896,2.5,0.000,3300,481.9,0.0084
+Clustering + algoritmo genético,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,3,Locuto (Tambo Grande),1.496,2.5,0.000,3300,481.9,0.0084
+Clustering + algoritmo genético,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,4,San Martín de Malingas,1.873,24.0,0.000,3300,481.9,0.0084
+Clustering + algoritmo genético,H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,1,Pedregal Chico,3.148,24.0,0.000,2400,155.4,0.0053
+Clustering + algoritmo genético,H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,2,Cucungará,3.501,24.0,0.000,2400,155.4,0.0053
+Clustering + algoritmo genético,H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,3,Chato Grande,3.853,24.0,0.000,2400,155.4,0.0053
+Híbrido: clustering + QAOA,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,1,San Pablo,1.088,24.0,0.000,5800,25.8,0.0530
+Híbrido: clustering + QAOA,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,2,Catacaos (ciudad),1.915,3.0,0.000,5800,25.8,0.0530
+Híbrido: clustering + QAOA,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,3,Pueblo Nuevo (Cura Mori),3.177,24.0,0.000,5800,25.8,0.0530
+Híbrido: clustering + QAOA,T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,1,Simbilá,1.024,24.0,0.000,4000,7.4,0.0313
+Híbrido: clustering + QAOA,T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,2,La Legua - San Jacinto,1.642,24.0,0.000,4000,7.4,0.0313
+Híbrido: clustering + QAOA,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,1,La Arena,2.713,3.0,0.000,7800,32.6,0.0908
+Híbrido: clustering + QAOA,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,2,Las Malvinas,3.309,24.0,0.000,7800,32.6,0.0908
+Híbrido: clustering + QAOA,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,3,La Unión,3.930,24.0,0.000,7800,32.6,0.0908
+Híbrido: clustering + QAOA,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,1,Monte Castillo,2.296,24.0,0.000,3600,35.6,0.1073
+Híbrido: clustering + QAOA,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,2,Paredones,2.890,24.0,0.000,3600,35.6,0.1073
+Híbrido: clustering + QAOA,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,3,Casagrande,3.754,24.0,0.000,3600,35.6,0.1073
+Híbrido: clustering + QAOA,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,4,Chatito,4.794,24.0,0.000,3600,35.6,0.1073
+Híbrido: clustering + QAOA,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,1,Pedregal Grande,0.568,2.5,0.000,3800,197.5,0.0070
+Híbrido: clustering + QAOA,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,2,Santa Rosa (Cura Mori),0.910,2.5,0.000,3800,197.5,0.0070
+Híbrido: clustering + QAOA,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,3,Chato Chico,1.270,2.5,0.000,3800,197.5,0.0070
+Híbrido: clustering + QAOA,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,4,Sinchao (El Tallán),1.628,2.5,0.000,3800,197.5,0.0070
+Híbrido: clustering + QAOA,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,1,Viduque,0.538,2.5,0.000,3300,481.9,0.0084
+Híbrido: clustering + QAOA,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,2,Narihualá,0.896,2.5,0.000,3300,481.9,0.0084
+Híbrido: clustering + QAOA,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,3,Locuto (Tambo Grande),1.496,2.5,0.000,3300,481.9,0.0084
+Híbrido: clustering + QAOA,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,4,San Martín de Malingas,1.873,24.0,0.000,3300,481.9,0.0084
+Híbrido: clustering + QAOA,H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,1,Pedregal Chico,3.148,24.0,0.000,2400,155.4,0.0053
+Híbrido: clustering + QAOA,H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,2,Cucungará,3.501,24.0,0.000,2400,155.4,0.0053
+Híbrido: clustering + QAOA,H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,3,Chato Grande,3.853,24.0,0.000,2400,155.4,0.0053
+Híbrido: clustering + QAOA-XY,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,1,San Pablo,1.088,24.0,0.000,5800,25.8,0.0530
+Híbrido: clustering + QAOA-XY,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,2,Catacaos (ciudad),1.915,3.0,0.000,5800,25.8,0.0530
+Híbrido: clustering + QAOA-XY,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,3,Pueblo Nuevo (Cura Mori),3.177,24.0,0.000,5800,25.8,0.0530
+Híbrido: clustering + QAOA-XY,T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,1,Simbilá,1.024,24.0,0.000,4000,7.4,0.0313
+Híbrido: clustering + QAOA-XY,T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,2,La Legua - San Jacinto,1.642,24.0,0.000,4000,7.4,0.0313
+Híbrido: clustering + QAOA-XY,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,1,La Arena,2.713,3.0,0.000,7800,32.6,0.0908
+Híbrido: clustering + QAOA-XY,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,2,Las Malvinas,3.309,24.0,0.000,7800,32.6,0.0908
+Híbrido: clustering + QAOA-XY,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,3,La Unión,3.930,24.0,0.000,7800,32.6,0.0908
+Híbrido: clustering + QAOA-XY,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,1,Monte Castillo,2.296,24.0,0.000,3600,35.6,0.1073
+Híbrido: clustering + QAOA-XY,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,2,Paredones,2.890,24.0,0.000,3600,35.6,0.1073
+Híbrido: clustering + QAOA-XY,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,3,Casagrande,3.754,24.0,0.000,3600,35.6,0.1073
+Híbrido: clustering + QAOA-XY,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,4,Chatito,4.794,24.0,0.000,3600,35.6,0.1073
+Híbrido: clustering + QAOA-XY,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,1,Pedregal Grande,0.568,2.5,0.000,3800,197.5,0.0070
+Híbrido: clustering + QAOA-XY,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,2,Santa Rosa (Cura Mori),0.910,2.5,0.000,3800,197.5,0.0070
+Híbrido: clustering + QAOA-XY,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,3,Chato Chico,1.270,2.5,0.000,3800,197.5,0.0070
+Híbrido: clustering + QAOA-XY,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,4,Sinchao (El Tallán),1.628,2.5,0.000,3800,197.5,0.0070
+Híbrido: clustering + QAOA-XY,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,1,Viduque,0.538,2.5,0.000,3300,481.9,0.0084
+Híbrido: clustering + QAOA-XY,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,2,Narihualá,0.896,2.5,0.000,3300,481.9,0.0084
+Híbrido: clustering + QAOA-XY,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,3,Locuto (Tambo Grande),1.496,2.5,0.000,3300,481.9,0.0084
+Híbrido: clustering + QAOA-XY,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.436,4,San Martín de Malingas,1.873,24.0,0.000,3300,481.9,0.0084
+Híbrido: clustering + QAOA-XY,H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,1,Pedregal Chico,3.148,24.0,0.000,2400,155.4,0.0053
+Híbrido: clustering + QAOA-XY,H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,2,Cucungará,3.501,24.0,0.000,2400,155.4,0.0053
+Híbrido: clustering + QAOA-XY,H1,helicoptero,Aeropuerto de Piura / base aérea,2.580,4.275,3,Chato Grande,3.853,24.0,0.000,2400,155.4,0.0053
+Clásico puro: SA sin clustering,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,1,San Pablo,1.088,24.0,0.000,5800,25.8,0.0530
+Clásico puro: SA sin clustering,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,2,Catacaos (ciudad),1.915,3.0,0.000,5800,25.8,0.0530
+Clásico puro: SA sin clustering,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,3,Pueblo Nuevo (Cura Mori),3.177,24.0,0.000,5800,25.8,0.0530
+Clásico puro: SA sin clustering,T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,1,Simbilá,1.024,24.0,0.000,4000,7.4,0.0313
+Clásico puro: SA sin clustering,T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,2,La Legua - San Jacinto,1.642,24.0,0.000,4000,7.4,0.0313
+Clásico puro: SA sin clustering,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,1,La Arena,2.713,3.0,0.000,7800,32.6,0.0908
+Clásico puro: SA sin clustering,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,2,Las Malvinas,3.309,24.0,0.000,7800,32.6,0.0908
+Clásico puro: SA sin clustering,T3,camion,Campus UDEP (centro de acopio),0.000,6.610,3,La Unión,3.930,24.0,0.000,7800,32.6,0.0908
+Clásico puro: SA sin clustering,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,1,Monte Castillo,2.296,24.0,0.000,3600,35.6,0.1073
+Clásico puro: SA sin clustering,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,2,Paredones,2.890,24.0,0.000,3600,35.6,0.1073
+Clásico puro: SA sin clustering,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,3,Casagrande,3.754,24.0,0.000,3600,35.6,0.1073
+Clásico puro: SA sin clustering,T4,camion,Campus UDEP (centro de acopio),0.000,7.493,4,Chatito,4.794,24.0,0.000,3600,35.6,0.1073
+Clásico puro: SA sin clustering,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.780,1,Viduque,0.538,2.5,0.000,3800,491.0,0.0100
+Clásico puro: SA sin clustering,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.780,2,Narihualá,0.896,2.5,0.000,3800,491.0,0.0100
+Clásico puro: SA sin clustering,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.780,3,Pedregal Chico,1.235,24.0,0.000,3800,491.0,0.0100
+Clásico puro: SA sin clustering,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.780,4,Locuto (Tambo Grande),1.841,2.5,0.000,3800,491.0,0.0100
+Clásico puro: SA sin clustering,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.780,5,San Martín de Malingas,2.217,24.0,0.000,3800,491.0,0.0100
+Clásico puro: SA sin clustering,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,1,Pedregal Grande,0.568,2.5,0.000,3800,197.5,0.0070
+Clásico puro: SA sin clustering,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,2,Santa Rosa (Cura Mori),0.910,2.5,0.000,3800,197.5,0.0070
+Clásico puro: SA sin clustering,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,3,Chato Chico,1.270,2.5,0.000,3800,197.5,0.0070
+Clásico puro: SA sin clustering,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.080,4,Sinchao (El Tallán),1.628,2.5,0.000,3800,197.5,0.0070
+Clásico puro: SA sin clustering,H2,helicoptero,Aeropuerto de Piura / base aérea,2.580,3.925,1,Cucungará,3.151,24.0,0.000,1900,142.3,0.0037
+Clásico puro: SA sin clustering,H2,helicoptero,Aeropuerto de Piura / base aérea,2.580,3.925,2,Chato Grande,3.503,24.0,0.000,1900,142.3,0.0037
+Clásico puro: GA sin clustering,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,1,San Pablo,1.088,24.0,0.000,5800,25.8,0.0530
+Clásico puro: GA sin clustering,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,2,Catacaos (ciudad),1.915,3.0,0.000,5800,25.8,0.0530
+Clásico puro: GA sin clustering,T1,camion,Aeropuerto de Piura / base aérea,0.000,4.450,3,Pueblo Nuevo (Cura Mori),3.177,24.0,0.000,5800,25.8,0.0530
+Clásico puro: GA sin clustering,T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,1,Simbilá,1.024,24.0,0.000,4000,7.4,0.0313
+Clásico puro: GA sin clustering,T2,camion,Aeropuerto de Piura / base aérea,0.000,2.534,2,La Legua - San Jacinto,1.642,24.0,0.000,4000,7.4,0.0313
+Clásico puro: GA sin clustering,T3,camion,Campus UDEP (centro de acopio),0.000,6.648,1,La Arena,2.713,3.0,0.000,5500,32.0,0.0940
+Clásico puro: GA sin clustering,T3,camion,Campus UDEP (centro de acopio),0.000,6.648,2,Las Malvinas,3.309,24.0,0.000,5500,32.0,0.0940
+Clásico puro: GA sin clustering,T3,camion,Campus UDEP (centro de acopio),0.000,6.648,3,Chatito,3.949,24.0,0.000,5500,32.0,0.0940
+Clásico puro: GA sin clustering,T4,camion,Campus UDEP (centro de acopio),0.000,7.455,1,Monte Castillo,2.296,24.0,0.000,5900,36.2,0.1041
+Clásico puro: GA sin clustering,T4,camion,Campus UDEP (centro de acopio),0.000,7.455,2,Paredones,2.890,24.0,0.000,5900,36.2,0.1041
+Clásico puro: GA sin clustering,T4,camion,Campus UDEP (centro de acopio),0.000,7.455,3,Casagrande,3.754,24.0,0.000,5900,36.2,0.1041
+Clásico puro: GA sin clustering,T4,camion,Campus UDEP (centro de acopio),0.000,7.455,4,La Unión,4.775,24.0,0.000,5900,36.2,0.1041
+Clásico puro: GA sin clustering,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.837,1,Viduque,0.538,2.5,0.000,3800,536.3,0.0102
+Clásico puro: GA sin clustering,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.837,2,Narihualá,0.896,2.5,0.000,3800,536.3,0.0102
+Clásico puro: GA sin clustering,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.837,3,Chato Chico,1.273,2.5,0.000,3800,536.3,0.0102
+Clásico puro: GA sin clustering,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.837,4,Locuto (Tambo Grande),1.897,2.5,0.000,3800,536.3,0.0102
+Clásico puro: GA sin clustering,H1,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.837,5,San Martín de Malingas,2.274,24.0,0.000,3800,536.3,0.0102
+Clásico puro: GA sin clustering,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.083,1,Pedregal Chico,0.567,24.0,0.000,3800,199.4,0.0070
+Clásico puro: GA sin clustering,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.083,2,Pedregal Grande,0.906,2.5,0.000,3800,199.4,0.0070
+Clásico puro: GA sin clustering,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.083,3,Santa Rosa (Cura Mori),1.248,2.5,0.000,3800,199.4,0.0070
+Clásico puro: GA sin clustering,H2,helicoptero,Aeropuerto de Piura / base aérea,0.000,2.083,4,Sinchao (El Tallán),1.631,2.5,0.000,3800,199.4,0.0070
+Clásico puro: GA sin clustering,H2,helicoptero,Aeropuerto de Piura / base aérea,2.583,3.927,1,Cucungará,3.153,24.0,0.000,1900,142.3,0.0037
+Clásico puro: GA sin clustering,H2,helicoptero,Aeropuerto de Piura / base aérea,2.583,3.927,2,Chato Grande,3.505,24.0,0.000,1900,142.3,0.0037
