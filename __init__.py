@@ -1,2 +1,11 @@
-"""Q-Rutas Piura: ruteo híbrido clásico-cuántico para ayuda humanitaria (Fenómeno El Niño)."""
-__version__ = "0.1.0"
+"""Módulo de Solvers para Q-Rutas Piura."""
+from .base import BaseRoutingSolver, ResultadoSolver
+from .registry import listar_solvers, obtener_solver, registrar_solver
+
+__all__ = [
+    "BaseRoutingSolver",
+    "ResultadoSolver",
+    "listar_solvers",
+    "obtener_solver",
+    "registrar_solver",
+]
