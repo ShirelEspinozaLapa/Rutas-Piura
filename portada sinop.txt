@@ -1,0 +1,18 @@
+
+
+
+
+**Rutas seguras ante El Niño: optimización cuántica para la movilidad en Piura**
+
+Cada vez que el fenómeno de El Niño golpea Piura, las lluvias y el desborde de ríos y quebradas cortan carreteras, aíslan comunidades y dificultan llegar a hospitales y albergues. Este proyecto responde a una pregunta concreta: **cuando varios tramos están bloqueados, ¿cuál es la mejor ruta que aún se puede usar?**
+
+Desarrollamos una aplicación web en Python y Qiskit que modela la red vial de Piura como un grafo, donde cada tramo tiene un tiempo de viaje y un nivel de riesgo de inundación. Con un control de intensidad de El Niño, la aplicación simula cómo se encarecen o se bloquean los caminos y calcula la mejor ruta entre dos puntos.
+
+El problema se resuelve de dos maneras y se comparan los resultados:
+
+- **Enfoque clásico:** el algoritmo de Dijkstra, rápido y confiable como referencia.
+- **Enfoque híbrido cuántico-clásico:** el algoritmo QAOA, que explora combinaciones de tramos en un circuito cuántico mientras un optimizador clásico lo va ajustando.
+
+La aplicación muestra ambas rutas sobre el mapa y una tabla con costo, tiempo de cálculo, qubits utilizados y calidad de la solución.
+
+Este es un prototipo que se ejecuta en simulador y usa datos ilustrativos. Su valor es dejar una base lista para escalar, con datos reales de INDECI, SENAMHI y el MTC, más ciudades, varios vehículos y puntos prioritarios, y para explorar cómo la computación cuántica puede aportar a la gestión de emergencias.
