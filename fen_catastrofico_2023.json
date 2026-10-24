@@ -1,0 +1,29 @@
+{
+  "nombre": "FEN Catastrófico 2023 - Piura",
+  "descripcion": "Crecida récord de 2,900 m3/s, colapso de Puente Independencia y corte de Sánchez Cerro y Bolognesi.",
+  "severidad_rio_factor": 1.5,
+  "puentes": [
+    { "nombre": "Puente Caceres", "estado": "restringido" },
+    { "nombre": "Puente Sanchez Cerro", "estado": "cerrado" },
+    { "nombre": "Puente Bolognesi", "estado": "cerrado" },
+    { "nombre": "Puente Grau", "estado": "operativo" },
+    { "nombre": "Puente Independencia", "estado": "colapsado" }
+  ],
+  "flota": [
+    { "tipo": "aereo", "deposito_id": "D01", "capacidad_kg": 4000, "cantidad": 2 },
+    { "tipo": "terrestre", "deposito_id": "D01", "capacidad_kg": 8000, "cantidad": 2 },
+    { "tipo": "terrestre", "deposito_id": "D02", "capacidad_kg": 8000, "cantidad": 2 }
+  ],
+  "pesos": {
+    "peso_tiempo": 0.50,
+    "peso_combustible": 0.25,
+    "peso_riesgo": 0.25,
+    "penalizacion_ventana": 15.0
+  },
+  "cuantico": {
+    "motor": "auto",
+    "capas_p": 2,
+    "shots": 4096,
+    "cvar_alpha": 0.15
+  }
+}

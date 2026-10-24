@@ -1,0 +1,29 @@
+{
+  "nombre": "Inundación Moderada - Todos los Puentes Transitables",
+  "descripcion": "Crecida menor donde el Puente Independencia permanece operativo, permitiendo mayor tránsito terrestre.",
+  "severidad_rio_factor": 0.8,
+  "puentes": [
+    { "nombre": "Puente Caceres", "estado": "operativo" },
+    { "nombre": "Puente Sanchez Cerro", "estado": "restringido" },
+    { "nombre": "Puente Bolognesi", "estado": "operativo" },
+    { "nombre": "Puente Grau", "estado": "operativo" },
+    { "nombre": "Puente Independencia", "estado": "operativo" }
+  ],
+  "flota": [
+    { "tipo": "aereo", "deposito_id": "D01", "capacidad_kg": 4000, "cantidad": 2 },
+    { "tipo": "terrestre", "deposito_id": "D01", "capacidad_kg": 8000, "cantidad": 2 },
+    { "tipo": "terrestre", "deposito_id": "D02", "capacidad_kg": 8000, "cantidad": 2 }
+  ],
+  "pesos": {
+    "peso_tiempo": 0.50,
+    "peso_combustible": 0.25,
+    "peso_riesgo": 0.25,
+    "penalizacion_ventana": 10.0
+  },
+  "cuantico": {
+    "motor": "auto",
+    "capas_p": 1,
+    "shots": 2048,
+    "cvar_alpha": 0.20
+  }
+}
