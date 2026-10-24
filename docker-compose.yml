@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  qrutas-demo:
+    build: .
+    container_name: qrutas_piura_demo
+    ports:
+      - "7860:7860"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./resultados:/app/resultados
+    restart: unless-stopped
+    command: python app_demo.py
